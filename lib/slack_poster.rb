@@ -69,7 +69,7 @@ class SlackPoster
       @mood_hash[:username]= "It's ok Seal"
     elsif @mood == "govuk-green-team"
       @mood_hash[:icon_emoji]=":happybabyseal:"
-      @mood_hash[:username]= "Leopard Seal"
+      @mood_hash[:username]= "Elephant Seal"
     else
       fail "Bad mood: #{mood}."
     end
